@@ -1,0 +1,112 @@
+#imgs{
+    transform: translateY(-80px);
+}
+#profile{
+    font-size: 60px;
+}
+#h6{
+    font-size: 25px;
+}
+.links{
+    text-decoration: none;
+}
+#about{
+    letter-spacing: 1.5px;
+    word-spacing: 2px;
+}
+.details-1:hover{
+    background-color: #fae1de;
+    transition: 0.6s;
+}
+.myCard:hover{
+    background-color: #fae1de;
+    transition: 0.6s;
+}
+.myProjects{
+    border: 1px solid #d6fcfa;
+}
+.myProjects:hover{
+    background-color: #d6fcfa;
+    border: 1.5px solid #20e0d6;
+}
+.details-2:hover{
+    background-color: #fae1de;
+    transition: 0.6s;
+}
+#logo{
+    position: absolute;
+}
+#testimonial{
+    border-radius: 3px;
+    background-color: red;
+}
+#contact-me-btn{
+    border: 2px solid red;
+    font-weight: bold;
+    color: red;
+}
+#contact-me-btn:hover{
+    background-color: red;
+    color: white;
+    transition: 0.5s;
+}
+#call-me-btn{
+    transition: 0.7s;
+    border: 1.5px solid green;
+    font-weight: bold;
+    font-size: 20px;
+    background-color: #7FFFD4;
+}
+#call-me-btn:hover{
+    background-color: #3CB371;
+    transition: 0.5s;
+    border: 1.5px solid green;
+    box-shadow: 0 0 50px lightgreen;
+}
+.card-body{
+    color: blue;
+}
+#footer{
+    background-color: #CFECEC;
+}
+
+.myname{
+    transform: translateY(-60px);
+}
+.link{
+    transform: translateY(-40px);
+}
+.myname p{
+    font-size: 16px;
+}
+#name-inst{
+    color: blue;
+}
+h3, h4{
+    font-size: 23px;
+}
+h4{
+    font-weight: lighter;
+}
+#other-projects{
+    font-size: 30px;
+    color: blue;
+}
+.lead{
+    font-size: 20px;
+}
+#lead{
+    font-size: 20px;
+}
+@media screen and (max-width:800px){
+    #logo{
+        position: relative;
+        text-align: center;
+    }
+    #mylogo{
+        width: 130px;
+    }
+    #body{
+        font-size: 12px;
+    }
+}
