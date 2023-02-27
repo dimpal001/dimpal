@@ -1,6 +1,9 @@
 #imgs{
     transform: translateY(-80px);
 }
+#alert{
+    position: absolute;
+}
 #profile{
     font-size: 60px;
 }
