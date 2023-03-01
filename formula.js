@@ -1,4 +1,5 @@
 $(function(){
+    $("#thanks-text").fadeOut();
     setTimeout(function(){
         $("#loader").fadeOut(800);
     },1200)
@@ -44,6 +45,18 @@ $(function(){
     })
     $("#mylogo").click(function(){
         $("#mylogo").slideUp(600).slideDown(600);
+    })
+    $(".like-me").click(function(){
+        $(".like-me").fadeOut(600);
+        $("#thanks").slideUp(300);
+        $("#thanks-text").fadeIn(700);
+        setTimeout(function(){
+            $("#like-me").remove();
+        },350)
+        setTimeout(function(){
+            $("#thanks-text").slideUp(300);
+            $("#thanks").fadeIn(700);
+        },5000)
     })
     
 });
