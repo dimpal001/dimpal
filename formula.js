@@ -1,4 +1,11 @@
 $(function(){
+    setTimeout(function(){
+        $("#loader").fadeOut(800);
+    },1200)
+
+    setTimeout(function(){
+        $("#home").fadeIn(1000);
+    },3000)
     $("#alerts1").click(function(){
         $("#prependHere").slideUp(600).slideDown(600);
         setTimeout(function(){
@@ -35,4 +42,8 @@ $(function(){
     $("#imgs").click(function(){
         $("#imgs").slideUp(600).slideDown(600);
     })
+    $("#mylogo").click(function(){
+        $("#mylogo").slideUp(600).slideDown(600);
+    })
+    
 });
